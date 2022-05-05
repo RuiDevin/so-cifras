@@ -1,16 +1,16 @@
 <script>
 import BarraNavegacao from "@/components/BarraNavegacao.vue";
 import MenuPrincipal from "@/components/MenuPrincipal.vue";
-import Rodape from "@/components/Rodape.vue";
+import BlocoRodape from "@/components/BlocoRodape.vue";
 export default {
-  components: { BarraNavegacao, MenuPrincipal, Rodape },
+  components: { BarraNavegacao, MenuPrincipal, BlocoRodape },
 };
 </script>
 
 <template>
   <BarraNavegacao />
   <MenuPrincipal />
-  <Rodape />
+  <BlocoRodape />
 </template>
 
 <style></style>
