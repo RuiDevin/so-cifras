@@ -29,3 +29,11 @@ body {
 #footer {
   grid-area: footer;
 }
+.block {
+  width: 260px;
+  height: 260px;
+  border: 1px slid blue;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 10px;
+}
