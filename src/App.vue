@@ -1,18 +1,12 @@
 <script>
-import BarraNavegacao from "@/components/BarraNavegacao.vue";
-import MenuPrincipal from "@/components/MenuPrincipal.vue";
-import BlocoRodape from "@/components/BlocoRodape.vue";
-import NovoBloco from "./components/NovoBloco.vue";
+import BlocoCabecalho from "./components/BlocoCabecalho.vue";
+import BlocoPrincipal from "./components/BlocoPrincipal.vue";
 export default {
-  components: { BarraNavegacao, MenuPrincipal, BlocoRodape, NovoBloco },
+  components: { BlocoCabecalho, BlocoPrincipal },
 };
 </script>
-
 <template>
-  <BarraNavegacao />
-  <MenuPrincipal />
-  <BlocoRodape />
-  <NovoBloco />
+  <BlocoCabecalho />
+  <BlocoPrincipal />
 </template>
-
 <style></style>

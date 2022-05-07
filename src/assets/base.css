@@ -1,8 +1,10 @@
 body {
+  color: white;
   margin: 0;
-  height: 100vh;  
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
-
 #app {
   height: 100%;
   display: grid;
@@ -10,14 +12,8 @@ body {
   grid-template-rows: 10% auto 10%;
   grid-template-areas: 
     "header header"
-    "content content"
-    "footer footer";
+    "content content";  
 }
-
-#header, #content, #footer {
-  border: 1px solid green;
-}
-
 #header {
   grid-area: header;
 }
@@ -26,14 +22,14 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-#footer {
-  grid-area: footer;
-}
 .block {
-  width: 260px;
-  height: 260px;
-  border: 1px slid blue;
+  width: 410px;
+  height: 200px;
+  border: 1px solid #0022b1;
   border-radius: 15px;
   padding: 20px;
   margin: 10px;
+}
+nav {
+  
 }
