@@ -1,17 +1,14 @@
 <script>
 export default {
   props: {
-    titulo : {
+    titulo: {
       default: "A DEFINIR",
     },
-    nomes: Array
-  }
+    nomes: Array,
+  },
 };
 </script>
 
 <template>
-  <article class="block">
-    <img src="assets/Fotos_Jogadores" alt="">
-    
-  </article>
+  <article class="block"></article>
 </template>

@@ -16,20 +16,22 @@ body {
 }
 #header {
   grid-area: header;
+  margin: 5px;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 #content {
   grid-area: content;
   display: flex;
   flex-wrap: wrap;
 }
-.block {
-  width: 410px;
-  height: 200px;
-  border: 1px solid #0022b1;
-  border-radius: 15px;
-  padding: 20px;
-  margin: 10px;
+#btn {
+  margin: 5px;
+  border-color: darkred;
+  color: white;
+  background-color: darkred;
 }
-nav {
-  width: 1350px;
+#logo {
+  margin-left: 5px;
+  padding-left: 40px;
 }
