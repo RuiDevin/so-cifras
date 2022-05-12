@@ -8,8 +8,6 @@ export default {
 };
 </script>
 
-<template>
-  <main id="content"></main>
-</template>
+<template><main class="content"></main></template>
 
 <style></style>
