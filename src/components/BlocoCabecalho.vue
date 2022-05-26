@@ -3,7 +3,10 @@ export default {};
 </script>
 
 <template>
-  <nav id="header" class="navbar navbar-light bg-light row align-items-start">
+  <nav
+    id="header"
+    class="navbar navbar-light bg-light row align-items-center px-2"
+  >
     <form class="form-inline col-11 row">
       <input
         class="form-control mr-sm-2 col"
